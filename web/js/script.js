@@ -49,7 +49,7 @@ function listLength() {
 
 function createListElement(value) {
   if (tasks.find((task) => task === value)) {
-    window.alert('Already exist');
+    window.alert('Already exist.');
     return;
   }
 
